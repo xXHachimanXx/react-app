@@ -1,0 +1,25 @@
+#main-header {
+    background: #20232a;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 90px;
+}
+
+#main-header img 
+{
+    display: flexbox;
+    width: 4%;
+    padding: 0 10px 0 10px;
+    animation: roda 5s infinite linear;
+}
+
+
+
+@keyframes roda {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(359deg);}
+}
